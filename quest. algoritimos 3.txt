@@ -1,0 +1,24 @@
+Algoritmo "questão 03"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+   paozinho,broas,total,guardapoupa: real
+
+
+Inicio
+   escreval("Informe a quantidade de paõzinhos vendidos hoje: ")
+   leia(paozinho)
+   escreval("Informe a quantidade de broas vendidos hoje: ")
+   leia(broas)
+   total<-(paozinho*0.12)+(broas*1.50)
+   escreval("Foram arrecadados ", total , " R$")
+   
+   guardapoupa<- total*(10/100)
+   
+   escreval("Você guardará " , guardapoupa, " R$ na poupança")
+
+
+Fimalgoritmo

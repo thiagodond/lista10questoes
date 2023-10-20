@@ -1,0 +1,20 @@
+Algoritmo "questão 06"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+
+kg,valorapg: real
+
+Inicio
+
+escreval("Peso do seu prato: ")
+leia(kg)
+valorapg<-kg*12
+ escreval("O valor da sua refeição foi :", valorapg, " R$")
+
+
+
+Fimalgoritmo

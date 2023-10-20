@@ -1,0 +1,20 @@
+Algoritmo "questão 05"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+ dinheiro,litros, preco: real
+ //Usei o preço de 6 da gasolina
+
+Inicio
+
+escreval("Você quer quantos reais de gasolina? ")
+leia(dinheiro)
+litros<- dinheiro/6
+escreval("Colocaremos no seu carro: ", litros , " litros de gasolina")
+
+
+
+Fimalgoritmo

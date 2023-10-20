@@ -1,0 +1,21 @@
+Algoritmo "questão 01"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+     base,altura,area: real
+
+
+
+Inicio
+   escreval("Digite a comprimento do terreno :")
+   leia(base)
+   escreval("Digite a largura do tereno :")
+   leia(altura)
+   area<- base*altura
+   escreval("A área do terreno é :", area , " M²")
+
+
+Fimalgoritmo

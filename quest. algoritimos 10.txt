@@ -1,0 +1,37 @@
+Algoritmo "questão 10"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+   PtoAB,x1,x2,y1,y2:real
+
+
+Inicio
+
+escreval("Informe as coordenadas do ponto A")
+
+escreva("Informe x1: ")
+
+leia(x1)
+
+escreva("Informe y1: ")
+
+leia(y1)
+
+escreval("Informe as coordenadas do ponto B")
+
+escreva("Informe x2: ")
+
+leia(x2)
+
+escreva("Informe y2: ")
+
+leia (y2)
+
+PtoAb <- raizQ(((x2-x1)^2)+((y2-y1)^2))
+
+Escreva(" A distancia entre o ponto A e B é igual a: ",PtoAb)
+
+Fimalgoritmo

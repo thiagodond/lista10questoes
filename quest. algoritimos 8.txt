@@ -1,0 +1,28 @@
+Algoritmo "questão 08"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+
+n1,n2,n3,media: real
+
+Inicio
+escreval("Informe sua primeira nota: ")
+leia(n1)
+escreval("Informe sua segunda nota: ")
+leia(n2)
+escreval("Informe sua terceira nota: ")
+leia(n3)
+media<-(n1*1+n2*2+n3*3)/6
+escreval("Sua media é: ", media)
+se (media>=6) entao
+  escreval("Você passou de ano, Parabéns")
+  fimse
+  se (media>3) entao
+  escreval("você esta de recuperação, estude mais")
+  senao
+  escreva("você esta reprovado")
+  fimse
+Fimalgoritmo

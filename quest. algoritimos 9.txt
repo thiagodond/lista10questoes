@@ -1,0 +1,21 @@
+Algoritmo "questão 09"
+// Disciplina   :  Algoritimos
+// Professor   : Fraceschini
+// Descrição   : 
+// Autor(a)    : Thiago Dond Ferreira Barbosa
+// Data atual  : 19/10/2023
+Var
+valortotal,medio,pequeno,grande: real
+
+
+Inicio
+
+escreval("Informe quantas camisas pequenas você deseja:")
+leia(pequeno)
+escreval("Informe quantas camisas medias você deseja:")
+leia(medio)
+escreval("Informe quantas camisas grandes você deseja:")
+leia(grande)
+valortotal<-(pequeno*10)+(medio*12)+(grande*15)
+escreval("O valor a pagar é de: ", valortotal, " R$")
+Fimalgoritmo
